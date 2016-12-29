@@ -1,0 +1,17 @@
+# docker-compose
+#mysql57:
+#  container_name: yoshi-mysql57
+#  build: mysql57
+#  environment:
+#    MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+#  ports:
+#      - "3306:3306"
+
+mysql8:
+  container_name: yoshi-mysql8
+  build: mysql8
+  environment:
+    MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+  ports:
+    - "3306:3306"
+
