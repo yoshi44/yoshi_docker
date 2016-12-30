@@ -13,7 +13,5 @@ run cd && git clone https://github.com/yoshi44/yesod-api.git
 run cd ${HOME}/yesod-api && stack setup && stack install yesod-bin cabal-install --install-ghc
 run cd ${HOME}/yesod-api && stack build
 
-run $SHELL -l
-
 expose 4444
 
