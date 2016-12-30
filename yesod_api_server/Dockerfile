@@ -15,3 +15,5 @@ run cd ${HOME}/yesod-api && stack build
 
 run $SHELL -l
 
+expose 4444
+
